@@ -84,7 +84,7 @@ describe('Snow Rescue Service', function () {
 
         expect(municipalService.sendSnowplow.calls.count()).toEqual(3);
         expect(municipalService.sendSander).toHaveBeenCalled();
-        expect(pressService.sendWeatherAlert).toHaveBeenCalled();
+        expect(pressService.sendWeatherAlert).toHaveBeenCalledWith("SEVERE");
     });
 
 });

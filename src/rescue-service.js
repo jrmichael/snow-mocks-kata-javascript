@@ -23,7 +23,7 @@ function RescueService(weatherForecastService, municipalServices, pressService) 
         if (extremeWinter()) {
             sendSnowplows(3);
             municipalServices.sendSander();
-            pressService.sendWeatherAlert();
+            pressService.sendWeatherAlert("SEVERE");
         } else {
             if (weatherForecastService.getTemperatureInCelsius() < 0) {
                 municipalServices.sendSander();

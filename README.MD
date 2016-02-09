@@ -11,4 +11,4 @@ Zaimplementuj klasę SnowRescueService - to jest twój System Under Test. Wszyst
 		
 1. Wyślij dwa pługi tylko jeśli opady śniegu przekroczą 5 mm
 
-1. Jeśli temperatura będzie poniżej -10 i opady śniegu przekroczą 10 mm, wyślij trzy pługi, piaskarkę i powiadom prasę. 	 
+1. Jeśli temperatura będzie poniżej -10 i opady śniegu przekroczą 10 mm, wyślij trzy pługi, piaskarkę i powiadom prasę, określając poziom zagrożenia jako "SEVERE". 	 

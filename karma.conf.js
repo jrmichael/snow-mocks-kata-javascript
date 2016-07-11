@@ -4,10 +4,13 @@ module.exports = function (config) {
         basePath: '',
         frameworks: ['jasmine'],
         files: [
-            'dependencies/**/*.js',
             'src/**/*.js',
             'spec/**/*.spec.js'
         ],
+        preprocessors : {
+            'src/**/*.js' : ['babel'],
+            'spec/**/*.spec.js' : ['babel']
+        },
         reporters: ['progress'],
         // web server port
         port: 9876,

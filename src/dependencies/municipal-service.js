@@ -1,4 +1,4 @@
-function MunicipalService() {
+module.exports = function MunicipalService() {
     return {
         sendSander: function () {
             // we don't care what the implementation of this method is
@@ -7,4 +7,4 @@ function MunicipalService() {
             // we don't care what the implementation of this method is
         }
     }
-}
+};

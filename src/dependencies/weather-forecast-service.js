@@ -1,4 +1,4 @@
-function WeatherForecastService() {
+module.exports = function WeatherForecastService() {
     return {
         getTemperatureInCelsius: function () {
             // we don't care what the implementation of this method is
@@ -7,4 +7,4 @@ function WeatherForecastService() {
             // we don't care what the implementation of this method is
         }
     }
-}
+};

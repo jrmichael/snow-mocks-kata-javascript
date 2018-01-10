@@ -1,4 +1,4 @@
-function RescueService(weatherForecastService, municipalServices, pressService) {
+module.exports = function RescueService(weatherForecastService, municipalServices, pressService) {
 
     return {
         checkForecastAndRescue: checkForecastAndRescue
@@ -8,4 +8,4 @@ function RescueService(weatherForecastService, municipalServices, pressService) 
 
     }
 
-}
+};
